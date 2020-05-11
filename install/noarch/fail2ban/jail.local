@@ -38,14 +38,14 @@ logpath = /var/log/proftpd/proftpd.log
 ### Mail ###
 #
 [exim-iptables]
-enabled = true
+enabled = false
 filter = exim
 action = vesta[name=MAIL]
 logpath = /var/log/exim/main.log
 #logpath = /var/log/exim4/mainlog
  
 [dovecot-iptables]
-enabled = true
+enabled = false
 filter = dovecot
 action = vesta[name=MAIL]
 logpath = /var/log/dovecot.log
@@ -58,11 +58,3 @@ filter = mysqld-auth
 action = vesta[name=DB]
 logpath = /var/log/mysqld.log
 #logpath = /var/log/mysql.log
- 
-####
-#[roundcube-auth]
-#enabled = false
-#filter = roundcube-auth
-#port = http,https
-#logpath = /var/log/roundcube/errors
-#
