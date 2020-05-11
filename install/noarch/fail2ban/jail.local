@@ -1,5 +1,6 @@
-### For use with Cent, Deb, Ubu
-### /etc/fail2ban/jail.local
+### VestaCP - Fail2Ban Configuration File
+### Supported OS: centos, debian, ubuntu
+### File: /etc/fail2ban/jail.local
 
 [DEFAULT]		
 ignoreip = 127.0.0.1/8
