@@ -1,3 +1,4 @@
+### For use with Cent, Deb, Ubu
 ### /etc/fail2ban/jail.local
 
 [DEFAULT]		
